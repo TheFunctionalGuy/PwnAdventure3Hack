@@ -7,4 +7,6 @@
 #define REPL_LIB_API __declspec(dllimport)
 #endif
 
-extern "C" REPL_LIB_API float fake_walk_speed(VOID* empty);
+float fake_walk_speed();
+float fake_jump_speed();
+int fake_can_jump();
