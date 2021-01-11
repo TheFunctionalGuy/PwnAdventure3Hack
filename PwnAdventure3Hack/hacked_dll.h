@@ -7,6 +7,8 @@
 #define REPL_LIB_API __declspec(dllimport)
 #endif
 
-float fake_walk_speed();
-float fake_jump_speed();
-int fake_can_jump();
+float fakeWalkSpeed();
+float fakeJumpSpeed();
+int __stdcall fakeCanJump();
+int fakeHealthAndMana();
+int __stdcall fakeGetInputs(char* parameter);
